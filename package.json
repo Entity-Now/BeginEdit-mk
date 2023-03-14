@@ -1,7 +1,6 @@
 {
-  "name": "beginedit",
+  "name": "@entity-now/beginedit-mk",
   "description": "BeginEdit一个基于Markdown-it的编辑器",
-  "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -22,5 +21,8 @@
     "@vitejs/plugin-vue": "^4.0.0",
     "vite": "^4.1.0",
     "sass": "^1.58.3"
+  },
+  "publishConfig": {
+    "registry":"https://npm.pkg.github.com"
   }
 }
