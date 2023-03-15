@@ -9,7 +9,8 @@ export default defineConfig({
   build:{
     lib:{
       entry: path.resolve(__dirname, 'src/main.js'),
-      name: 'BeginEdit'
+      name: 'BeginEdit',
+      fileName:"BeginEdit-mk"
     },
     // 不加修饰，这样你就可以看到其中到底包含了什么
     minify: false,

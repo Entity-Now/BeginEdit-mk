@@ -4,32 +4,42 @@
   "version": "1.0.4",
   "type": "module",
   "author": "entity-now",
-  "main": "/src/main.js",
+  "main": "./src/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.2.45",
     "github-markdown-css": "^5.2.0",
     "highlight.js": "^11.7.0",
     "markdown-it": "^13.0.1",
     "markdown-it-container": "^3.0.0",
     "markdown-it-emoji": "^2.0.2",
-    "node-sass": "^8.0.0"
+    "node-sass": "^8.0.0",
+    "vue": "^3.2.45"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
-    "vite": "^4.1.0",
-    "sass": "^1.58.3"
+    "sass": "^1.59.3",
+    "vite": "^4.1.0"
   },
   "publishConfig": {
-    "registry":"https://registry.npmjs.org/"
+    "registry": "https://registry.npmjs.org/"
   },
   "repository": {
-    "type":"git",
-    "url":"https://github.com/Entity-Now/BeginEdit-mk.git"
+    "type": "git",
+    "url": "https://github.com/Entity-Now/BeginEdit-mk.git"
   },
-  "homepage": "https://github.com/Entity-Now/BeginEdit-mk"
+  "homepage": "https://github.com/Entity-Now/BeginEdit-mk",
+  "keywords":[
+    "富文本编辑器",
+    "MarkDown-it",
+    "Vue3",
+    "MarkDown编辑器"
+  ],
+  "exports":{
+    ".":"./dist/BeginEdit-mk.js",
+    "./Style":"./dist/style.css"
+  }
 }
