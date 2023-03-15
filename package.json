@@ -1,7 +1,7 @@
 {
   "name": "@entity-now/beginedit-mk",
   "description": "BeginEdit一个基于Markdown-it的编辑器",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -23,6 +23,6 @@
     "sass": "^1.58.3"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com"
+    "registry":"https://npm.pkg.github.com/entity-now"
   }
 }
