@@ -1,9 +1,10 @@
 {
   "name": "@entity-now/beginedit-mk",
   "description": "BeginEdit一个基于Markdown-it的编辑器",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "type": "module",
   "author": "entity-now",
+  "main": "/src/main.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
