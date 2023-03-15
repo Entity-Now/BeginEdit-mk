@@ -1,7 +1,7 @@
 {
   "name": "@entity-now/beginedit-mk",
   "description": "BeginEdit一个基于Markdown-it的编辑器",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "type": "module",
   "author": "entity-now",
   "scripts": {
