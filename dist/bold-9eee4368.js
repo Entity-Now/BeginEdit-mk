@@ -1,5 +1,5 @@
 import { inject, openBlock, createBlock, withCtx, createTextVNode } from "vue";
-import { _ as _sfc_main$1 } from "./main-b816192a.js";
+import { _ as _sfc_main$1 } from "./main-0d28ca6c.js";
 const bold_vue_vue_type_style_index_0_lang = "";
 const _sfc_main = {
   __name: "bold",

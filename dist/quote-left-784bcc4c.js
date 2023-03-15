@@ -1,5 +1,5 @@
 import { inject, openBlock, createBlock } from "vue";
-import { _ as _sfc_main$1 } from "./main-b816192a.js";
+import { _ as _sfc_main$1 } from "./main-0d28ca6c.js";
 const _sfc_main = {
   __name: "quote-left",
   setup(__props) {

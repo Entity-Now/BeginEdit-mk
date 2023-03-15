@@ -8,8 +8,8 @@ export default defineConfig({
   plugins: [vue()],
   build:{
     lib:{
-      entry: path.resolve(__dirname, 'src/main.js'),
-      name: 'BeginEdit',
+      entry: path.resolve(__dirname, 'lib/main.js'),
+      name: 'beginedit-mk',
       fileName:"BeginEdit-mk"
     },
     // 不加修饰，这样你就可以看到其中到底包含了什么

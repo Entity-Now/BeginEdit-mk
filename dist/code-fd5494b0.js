@@ -1,6 +1,6 @@
 import { ref, inject, openBlock, createBlock, withCtx, createElementVNode, createElementBlock, Fragment, renderList, toDisplayString } from "vue";
 import "./ItemList-04c5f065.js";
-import { L as Languages, _ as _sfc_main$1 } from "./main-b816192a.js";
+import { L as Languages, _ as _sfc_main$1 } from "./main-0d28ca6c.js";
 const _hoisted_1 = { class: "BeginEdit_ItemList" };
 const _hoisted_2 = ["onClick"];
 const _sfc_main = {

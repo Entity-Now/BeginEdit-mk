@@ -1,8 +1,8 @@
 import { ref, inject, openBlock, createBlock, withCtx, createElementVNode, createElementBlock, Fragment, renderList, toDisplayString, pushScopeId, popScopeId } from "vue";
-import { _ as _sfc_main$1, e as emoji$1 } from "./main-b816192a.js";
+import { _ as _sfc_main$1, e as emoji$1 } from "./main-0d28ca6c.js";
 import { _ as _export_sfc } from "./_plugin-vue_export-helper-cc2b3d55.js";
-const emoji_vue_vue_type_style_index_0_scoped_3b9c2e68_lang = "";
-const _withScopeId = (n) => (pushScopeId("data-v-3b9c2e68"), n = n(), popScopeId(), n);
+const emoji_vue_vue_type_style_index_0_scoped_dc9cd938_lang = "";
+const _withScopeId = (n) => (pushScopeId("data-v-dc9cd938"), n = n(), popScopeId(), n);
 const _hoisted_1 = { class: "container" };
 const _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createElementVNode("span", { class: "title" }, "表情", -1));
 const _hoisted_3 = { class: "emoji" };
@@ -50,7 +50,7 @@ const _sfc_main = {
     };
   }
 };
-const emoji = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-3b9c2e68"]]);
+const emoji = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-dc9cd938"]]);
 export {
   emoji as default
 };

@@ -1,14 +1,16 @@
 {
-  "name": "@entity-now/beginedit-mk",
+  "name": "beginedit-mk",
   "description": "BeginEdit一个基于Markdown-it的编辑器",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "type": "module",
   "author": "entity-now",
-  "main": "./src/main.js",
+  "main": "./dist/BeginEdit-mk.js",
+  "module": "./dist/BeginEdit-mk.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "demo": "vite build --config vite.config.Demo.js --mode development",
+    "dev:demo": "vite --config vite.config.Demo.js --mode development"
   },
   "dependencies": {
     "github-markdown-css": "^5.2.0",
@@ -39,7 +41,10 @@
     "MarkDown编辑器"
   ],
   "exports":{
-    ".":"./dist/BeginEdit-mk.js",
+    ".":{
+      "import":"./dist/BeginEdit-mk.js",
+      "require":"./dist/BeginEdit-mk.umd.cjs"
+    },
     "./Style":"./dist/style.css"
   }
 }

@@ -1,10 +1,10 @@
 import { ref, inject, openBlock, createBlock, withCtx, createElementVNode, withDirectives, normalizeClass, vModelText, pushScopeId, popScopeId } from "vue";
-import { _ as _sfc_main$1 } from "./main-b816192a.js";
+import { _ as _sfc_main$1 } from "./main-0d28ca6c.js";
 import { _ as _export_sfc } from "./_plugin-vue_export-helper-cc2b3d55.js";
 const input = "";
 const button = "";
-const link_vue_vue_type_style_index_0_scoped_713a012b_lang = "";
-const _withScopeId = (n) => (pushScopeId("data-v-713a012b"), n = n(), popScopeId(), n);
+const link_vue_vue_type_style_index_0_scoped_c3e951b2_lang = "";
+const _withScopeId = (n) => (pushScopeId("data-v-c3e951b2"), n = n(), popScopeId(), n);
 const _hoisted_1 = { class: "linkInput" };
 const _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createElementVNode("span", null, "链接地址", -1));
 const _hoisted_3 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ createElementVNode("span", null, "链接的描述内容（可为空）", -1));
@@ -74,7 +74,7 @@ const _sfc_main = {
     };
   }
 };
-const link = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-713a012b"]]);
+const link = /* @__PURE__ */ _export_sfc(_sfc_main, [["__scopeId", "data-v-c3e951b2"]]);
 export {
   link as default
 };

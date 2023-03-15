@@ -1,5 +1,5 @@
 (function(global, factory) {
-  typeof exports === "object" && typeof module !== "undefined" ? factory(exports, require("vue")) : typeof define === "function" && define.amd ? define(["exports", "vue"], factory) : (global = typeof globalThis !== "undefined" ? globalThis : global || self, factory(global.BeginEdit = {}, global.Vue));
+  typeof exports === "object" && typeof module !== "undefined" ? factory(exports, require("vue")) : typeof define === "function" && define.amd ? define(["exports", "vue"], factory) : (global = typeof globalThis !== "undefined" ? globalThis : global || self, factory(global["beginedit-mk"] = {}, global.Vue));
 })(this, function(exports2, vue) {
   "use strict";
   const __variableDynamicImportRuntimeHelper = (glob, path) => {
@@ -15248,7 +15248,7 @@ ${typeStr}
     __proto__: null,
     default: _sfc_main$a
   }, Symbol.toStringTag, { value: "Module" }));
-  const emoji_vue_vue_type_style_index_0_scoped_3b9c2e68_lang = "";
+  const emoji_vue_vue_type_style_index_0_scoped_dc9cd938_lang = "";
   const _export_sfc = (sfc, props) => {
     const target2 = sfc.__vccOpts || sfc;
     for (const [key, val] of props) {
@@ -15256,7 +15256,7 @@ ${typeStr}
     }
     return target2;
   };
-  const _withScopeId$1 = (n) => (vue.pushScopeId("data-v-3b9c2e68"), n = n(), vue.popScopeId(), n);
+  const _withScopeId$1 = (n) => (vue.pushScopeId("data-v-dc9cd938"), n = n(), vue.popScopeId(), n);
   const _hoisted_1$2 = { class: "container" };
   const _hoisted_2$2 = /* @__PURE__ */ _withScopeId$1(() => /* @__PURE__ */ vue.createElementVNode("span", { class: "title" }, "表情", -1));
   const _hoisted_3$1 = { class: "emoji" };
@@ -15304,7 +15304,7 @@ ${typeStr}
       };
     }
   };
-  const emoji = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["__scopeId", "data-v-3b9c2e68"]]);
+  const emoji = /* @__PURE__ */ _export_sfc(_sfc_main$9, [["__scopeId", "data-v-dc9cd938"]]);
   const emoji$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
     __proto__: null,
     default: emoji
@@ -15408,8 +15408,8 @@ ${typeStr}
   }, Symbol.toStringTag, { value: "Module" }));
   const input = "";
   const button = "";
-  const link_vue_vue_type_style_index_0_scoped_713a012b_lang = "";
-  const _withScopeId = (n) => (vue.pushScopeId("data-v-713a012b"), n = n(), vue.popScopeId(), n);
+  const link_vue_vue_type_style_index_0_scoped_c3e951b2_lang = "";
+  const _withScopeId = (n) => (vue.pushScopeId("data-v-c3e951b2"), n = n(), vue.popScopeId(), n);
   const _hoisted_1 = { class: "linkInput" };
   const _hoisted_2 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ vue.createElementVNode("span", null, "链接地址", -1));
   const _hoisted_3 = /* @__PURE__ */ _withScopeId(() => /* @__PURE__ */ vue.createElementVNode("span", null, "链接的描述内容（可为空）", -1));
@@ -15479,7 +15479,7 @@ ${typeStr}
       };
     }
   };
-  const link = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["__scopeId", "data-v-713a012b"]]);
+  const link = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["__scopeId", "data-v-c3e951b2"]]);
   const link$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
     __proto__: null,
     default: link
