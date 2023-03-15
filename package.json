@@ -23,6 +23,6 @@
     "sass": "^1.58.3"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/entity-now"
+    "registry":"https://npm.pkg.github.com"
   }
 }
