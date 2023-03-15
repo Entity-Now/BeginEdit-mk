@@ -3,6 +3,7 @@
   "description": "BeginEdit一个基于Markdown-it的编辑器",
   "version": "1.0.2",
   "type": "module",
+  "author": "entity-now",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -23,7 +24,11 @@
     "sass": "^1.58.3"
   },
   "publishConfig": {
-    "registry":"https://npm.pkg.github.com/",
-    "scope":"@entity-now"
-  }
+    "registry":"https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type":"git",
+    "url":"https://github.com/Entity-Now/BeginEdit-mk.git"
+  },
+  "homepage": "https://github.com/Entity-Now/BeginEdit-mk"
 }
