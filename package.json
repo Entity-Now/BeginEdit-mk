@@ -1,7 +1,7 @@
 {
   "name": "beginedit-mk",
   "description": "BeginEdit一个基于Markdown-it的编辑器",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "type": "module",
   "author": "entity-now",
   "main": "./dist/BeginEdit-mk.js",
