@@ -1,6 +1,6 @@
 <template>
     <div>
-        <BeginEdit v-model:Code="Code" v-model:Html="Html"/>
+        <BeginEdit style="margin:100px 0" v-model:Code="Code" v-model:Html="Html"/>
     </div>
 </template>
 <script setup>

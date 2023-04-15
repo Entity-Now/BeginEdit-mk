@@ -85,7 +85,7 @@ const ContentEnterEvent = (event)=>{
     }
 
 }
-// 暴露属性
+// 暴露属性，可以使用ref调用暴露的属性
 defineExpose({
     EditConfig:Mk,
     ListToolbar,
@@ -114,18 +114,17 @@ defineExpose({
         .BeginEdit-content{
             position: relative;
             width: 100%;
-            height: auto;
+            min-height: 500px;
             .BeginEditMarkValue{
                 vertical-align: middle;
+                position: absolute;
                 padding: 7px;
-                box-sizing: border-box;
-                width: 100%;
-                min-height: 200px;
+                min-height: 100%;
                 min-width: 100%;
                 max-width: 100%;
                 box-sizing: border-box;
                 // 可以拖动大小
-                resize: both;
+                resize:none;
                 font-size: 22px;
             }
             .BeginEditRenderHtml5{

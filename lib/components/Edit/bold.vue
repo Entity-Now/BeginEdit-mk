@@ -13,10 +13,4 @@ const Mk = inject('BeginEditTool');
 const Bold = ()=>{
     Mk.aroundInsert('**','**');
 }
-
 </script>
-<style lang="scss">
-    .container{
-        min-width: 100px;
-    }
-</style>

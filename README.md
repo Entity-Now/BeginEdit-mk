@@ -1,5 +1,8 @@
 # BeginEdit-MK
-一款基于[MarkDown-it](https://github.com/markdown-it/markdown-it)的编辑器，MarkDown样式使用[github-markdown-css](https://github.com/sindresorhus/github-markdown-css).
+一款基于[MarkDown-it](https://github.com/markdown-it/markdown-it)的编辑器
+- MarkDown样式表使用[github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
+- Code代码块使用[highlight.js](https://github.com/highlightjs/highlight.js)
+- Emoji表情包[markdown-it-emoji](https://github.com/markdown-it/markdown-it-emoji)
 
 ## install（安装）
 ```sh

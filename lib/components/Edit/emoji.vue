@@ -34,7 +34,7 @@ const Emoji = ()=>{
 }
 const Selector = (item)=>{
     IsShow.value = !IsShow.value;
-    Mk.centreInsert(item, true)
+    Mk.centreInsert(` ${item} `, true)
 }
 </script>
 <style scoped lang="scss">
